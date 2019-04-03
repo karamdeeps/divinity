@@ -1,4 +1,91 @@
-{% extends "footer.html" %}
-<h1> HOME PAGE </h1>
-HEY THERE THIS IS HOMEPAGE.
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+    <title> SOCIETY WEBSITE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#00BFFF;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  font-weight: bold;
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#00BFFF;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  font-weight: bold;
+  color: #0f0f0f;
+}
+.bg {
+  /* The image used */
+  background-image: url("im.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body  style="font-family:Verdana;color:#aaaaaa; ">
+<div style="background-color:#00008B;padding:15px;text-align:center; ">
+  <h1>DIVINE CIRCLE</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="{% url 'index' %}">About Society</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+
+  <div class="main">
+    <h2>GURU TEGH BAHADUR INSTITUTE OF TECHNOLOGY</h2>
+    <p>Guru Tegh Bahadur Institute of Technology is an Indian engineering college affiliated to Guru
+        Gobind Singh Indraprastha University. It was established in 1999 by the Delhi Sikh Gurudwara
+        Management Committee. GTBIT is a degree level technical institute, approved by the AICTE.</p>
+  </div>
+
+  <div class="right">
+    <h2>About society culture</h2>
+    <p>"LET'S SING THE GLORIOUS PRAISES OF THE LORD!"</p>
+  </div>
+</div>
+
+<div style="background-color:#00BFFF;text-align:center;padding:10px;margin-top:200px;font-weight: bold;color: #0f0f0f ">
+    THANKS FOR VISITING THE SITE @Divine Circle</div>
+</body>
+</html>
 
