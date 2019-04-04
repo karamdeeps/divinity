@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02931622-3587-4e16-8ff3-fc27c31a4cc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/divine/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/divine/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libgssapi_krb5-174f8956.so.2.2" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libgssapi_krb5-174f8956.so.2.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libk5crypto-622ef25b.so.3.1" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libk5crypto-622ef25b.so.3.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libkrb5-fb0d2caa.so.3.3" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libkrb5-fb0d2caa.so.3.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libkrb5support-d7ce89d4.so.0.1" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libkrb5support-d7ce89d4.so.0.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libsasl2-e96a0dbf.so.2.0.22" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/.libs/libsasl2-e96a0dbf.so.2.0.22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/_range.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/errorcodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/errorcodes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/extras.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/extras.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_async.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_async.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_cursor.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_cursor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_dates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_extras_dictcursor.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_extras_dictcursor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_fast_executemany.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_fast_executemany.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_green.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_green.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_types_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_types_basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_types_extras.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_types_extras.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_with.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tests/test_with.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tz.py" beforeDir="false" afterPath="$PROJECT_DIR$/divinityenv/lib/python3.6/site-packages/psycopg2/tz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="02931622-3587-4e16-8ff3-fc27c31a4cc4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/divine/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="86" column="8" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/procfile">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -156,8 +137,8 @@
         <option value="$PROJECT_DIR$/divinecircle/urls.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/divine/settings.py" />
         <option value="$PROJECT_DIR$/divine/wsgi.py" />
+        <option value="$PROJECT_DIR$/divine/settings.py" />
       </list>
     </option>
   </component>
@@ -265,12 +246,12 @@
       <workItem from="1554196727616" duration="13104000" />
       <workItem from="1554281383817" duration="5615000" />
       <workItem from="1554299471504" duration="13071000" />
-      <workItem from="1554367741558" duration="25496000" />
+      <workItem from="1554367741558" duration="26328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57286000" />
+    <option name="totallyTimeSpent" value="58118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
@@ -429,13 +410,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/divine/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="86" column="8" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procfile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
