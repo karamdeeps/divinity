@@ -1,51 +1,219 @@
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="/templates/style.css" />
+<title>COMPETITIONS</title>
+{% load static %}
+    <style type="text/css">
 
-<title>Reverted by Bryant Smith</title>
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+  background: #26476E url(/media/back.png) repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#page
+{
+  margin: 0 auto 0 auto;
+  display: block;
+  height:auto;
+  position: relative;
+  overflow: hidden;
+  width: 753px;
+}
+
+#header
+{
+margin-top:25px;
+padding-top:63px;
+padding-left:30px;
+padding-right:30px;
+background-image:url(/media/header.png);
+background-repeat:no-repeat;
+height:122px;
+width:753px;
+overflow:hidden;
+}
+
+#header h1, #header h2
+{
+margin-left:0px;
+width:693px;
+position:relative;
+color:#000000;
+text-align:center;
+font-size:15px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+clear:both;
+}
+
+#header h1
+{
+margin-left:0px;
+width:693px;
+position:relative;
+color:#26476E;
+font-size:30px;
+}
+
+
+
+#bar
+{
+background-image:url(/media/bar.png);
+background-repeat:no-repeat;
+height:53px;
+width:750px;
+padding-bottom:15px;
+text-align:center;
+margin:0 auto 0 auto;
+}
+
+#bar ul {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	list-style-type: none;
+	height: 74px;
+	text-align:center;
+}
+#bar ul li , #bar ul li a, #bar ul li a:visited{
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	overflow: hidden;
+	display: inline;
+	text-align:center;
+	line-height:65px;
+	color:#26476E;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+#bar ul li a:hover
+{
+color:#000000;
+text-decoration:underline;
+
+}
+
+
+.contentTitle
+{
+width:700px;
+height:44px;
+margin-top:20px;
+margin-left:0px;
+margin-right:25px;
+
+}
+
+.contentTitle h1
+{
+margin-left:21px;
+padding-top:8px;
+font-size:21px;
+font-weight:bold;
+letter-spacing:-1px;
+color:#FFFFFF;
+}
+
+
+.contentText
+{
+width:680px;
+padding-left:30px;
+padding-right:30px;
+font-size:13px;
+color:#FFFFFF;
+line-height:30px;
+}
+
+a
+{
+text-decoration:none;
+color:#F1F3F8;
+}
+
+a:hover
+{
+border-bottom:1px dotted #F1F3F8;
+}
+
+
+#footer {
+width: 750px;
+height:20px;
+text-align:center;
+font-size:9px;
+color:#223F8D;
+padding-top:20px;
+}
+
+html, body {
+text-align: center;
+}
+p {
+margin:7px;
+text-align: left;
+text-align:justify;
+}
+
+    </style>
 </head>
 
 <body>
     <div id="page">
 		
         <div id="header">
-        	<h1>Reverted »</h1>
-            <h2>The first XHTML 1.1 Validated Template by Bryant Smith.</h2>
+        	<h1>Society Organised Events »</h1>
+            <h2>Official Society of GTBIT</h2>
             
       </div>
         <div id="bar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Pictures</a></li>
-                <li><a href="#">My Bio</a></li>
-                <li><a href="#">My Company</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="#">Event Pictures</a></li>
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">About College</a></li>
+                <li><a href="#">Alumni</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
       </div>
-        <div class="contentTitle"><h1>Template Usage</h1></div>
+        <div class="contentTitle"><h1>Turban Tying Competition</h1></div>
         <div class="contentText">
-          <p>You may use this template on any site, anywhere, for free just<strong> please leave the link back to me in the footer</strong>. This template validates XHTML 1.1, CSS Validates as well; enjoy :) </p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.</p>
-          <p><a href="index.html">»  (read more)</a></p>
+          <p>You can add up anything here. Like anything. Literally anything you like.<br/>
+              <strong> -------------- GREAT EVENT -------------</strong>.</p>
+
         </div>
+        <img src="{{ MEDIA_URL }}{{ '/media/comp.jpg' }}"  alt='dc logo'  border="0" width="600" height="400" >
         <div class="contentTitle">
-          <h1>Gettysburg Address</h1>
+          <h1>Other Events </h1>
         </div>
         <div class="contentText">
-          <p>Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</p>
+          <p>The words of the Almighty would be sung under His gracious presence on 29th march, 2016.
+              Bani recitation holds an utmost importance in a sikh's life.Let us all come and witness
+              in this event organized by Divine Circle.</p>
 
-<p>Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.</p>
-
-<p>But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.</p>
-          <p><a href="index.html">» (read more)</a></p>
         </div>
         <div class="contentTitle"><h1>Yet Another?</h1></div>
-        <div class="contentText">Each title is an H1 tag, so choose them carefully :)</div>  
+        <div class="contentText">LIVING HAPPILY FOREVER</div>
 </div>
-        <div id="footer"><a href="http://www.bryantsmith.com">web page designer </a> <a href="http://www.bryantsmith.com">bryant smith</a></div>
 </body>
 </html>
