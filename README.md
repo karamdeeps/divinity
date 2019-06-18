@@ -10,3 +10,5 @@ Past -> This project was initiated by students of 2019 batch
                      4)Supreet kaur(ECE)
                      5)Prabhleen kaur(ECE).)
 *Note - Only Divine Circle's core team can make any changes to the website.
+
+Deployed on heroku(free serving website).
