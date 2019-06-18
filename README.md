@@ -12,3 +12,6 @@ Past -> This project was initiated by students of 2019 batch
 *Note - Only Divine Circle's core team can make any changes to the website.
 
 Deployed on heroku(free serving website).
+
+
+Application Domain - https://dcgtbit.herokuapp.com/
