@@ -1,0 +1,4 @@
+.idea/*
+
+# ignore migration folder
+/divinecircle/**/migrations/**
