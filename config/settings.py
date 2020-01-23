@@ -24,7 +24,7 @@ SECRET_KEY = '^qc=-jobxd!wst*+p5x-2@g^fzbwa*fqc=or^k%jl%h09_yl+e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.dcgtbit', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['www.dcgtbit', '127.0.0.1', 'localhost', 'dcgtbit.herokuapp.com']
 
 # Application definition
 
