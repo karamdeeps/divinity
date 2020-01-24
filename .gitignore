@@ -3,4 +3,4 @@
 # ignore migration folder
 /divinecircle/**/migrations/**
 
-/venv
+/venv/*
