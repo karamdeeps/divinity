@@ -11,7 +11,7 @@ Past -> This project was initiated by students of 2019 batch
                      5)Prabhleen kaur(ECE).)
 *Note - Only Divine Circle's core team can make any changes to the website.
 
-Deployed on heroku(free serving website).
+Deployed on heroku(free serving website). This project is purely coded in python's django rest framework
 
 
 Application Domain - https://dcgtbit.herokuapp.com/
