@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'divinecircle',
     'rest_framework',
     'bootstrap4',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

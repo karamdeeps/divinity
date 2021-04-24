@@ -4,7 +4,11 @@ from rest_framework import viewsets
 from divinecircle.serializers import UserSerializer, GroupSerializer
 from django.template.loader import get_template
 from django.http import HttpResponse
-# Create your views here.
+
+from rest_framework_xml.parsers import XMLParser
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from django.views.decorators.csrf import csrf_exempt
 
 
 def index(request):
@@ -12,7 +16,7 @@ def index(request):
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -23,3 +27,13 @@ class UserViewSet(viewsets.ModelViewSet):
 class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
+
+
+# Testing for xml parser
+class XmlTest(APIView):
+    parser_classes = XMLParser
+    authentication_classes = []
+
+    def post(self, request, format=None):
+        print("ok-------------------")
+        return Response('xs')
